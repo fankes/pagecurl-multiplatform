@@ -1,23 +1,19 @@
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 pluginManagement {
-    includeBuild("build-logic")
     repositories {
-        google()
-        mavenCentral()
         gradlePluginPortal()
-    }
-}
-
-plugins {
-    id("org.gradle.toolchains.foojay-resolver-convention") version ("0.7.0")
-}
-
-dependencyResolutionManagement {
-    repositories {
         google()
         mavenCentral()
     }
 }
-
-rootProject.name = "PageCurl"
-include(":demo")
+plugins {
+    id("com.highcapable.sweetdependency") version "1.0.2"
+    id("com.highcapable.sweetproperty") version "1.0.3"
+}
+sweetProperty {
+    global { sourcesCode { isEnable = false } }
+    rootProject { all { isEnable = false } }
+}
+rootProject.name = "pagecurl-multiplatform"
+include(":samples:androidApp", ":samples:desktopApp", ":samples:shared")
 include(":pagecurl")
