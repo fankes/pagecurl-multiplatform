@@ -28,7 +28,7 @@ you can clone this repository or use git submodule to use it.
 For an Android version and a sample usage, please visit: https://github.com/oleksandrbalan/pagecurl.
 
 See Demo application
-and [examples](https://github.com/fankes/pagecurl/blob/multiplatform/samples/shared/src/commonMain/kotlin/eu/wewox/pagecurl/screens) for more usage
+and [examples](https://github.com/fankes/pagecurl-multiplatform/tree/multiplatform/samples/shared/src/commonMain/kotlin/eu/wewox/pagecurl/screens) for more usage
 examples.
 
 ## Thanks
