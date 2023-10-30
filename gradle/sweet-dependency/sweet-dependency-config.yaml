@@ -28,18 +28,6 @@ libraries:
       version: 3.3.0-alpha02-0.4.0
     paging-compose-common:
       version-ref: <this>::paging-common
-  androidx.compose:
-    compose-bom:
-      version: 2023.09.02
-  androidx.compose.foundation:
-    foundation:
-      version: <no-spec>
-  androidx.compose.ui:
-    ui:
-      version: <no-spec>
-  androidx.compose.material3:
-    material3:
-      version: <no-spec>
   androidx.activity:
     activity:
       version: 1.8.0

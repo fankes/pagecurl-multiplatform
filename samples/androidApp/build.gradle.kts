@@ -30,7 +30,6 @@ android {
         targetSdk = property.project.android.targetSdk
         versionName = property.project.samples.androidApp.versionName
         versionCode = property.project.samples.androidApp.versionCode
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
